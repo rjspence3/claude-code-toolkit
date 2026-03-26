@@ -12,7 +12,7 @@ Commands will be available as `/claude-code-toolkit:build`, `/claude-code-toolki
 
 ## What's in here
 
-12 slash commands and 3 agent definitions I actually use. Not a framework — just the stuff that survived.
+10 slash commands and 3 agent definitions I actually use. Not a framework — just the stuff that survived.
 
 ### Commands that matter most
 
@@ -29,8 +29,6 @@ Commands will be available as `/claude-code-toolkit:build`, `/claude-code-toolki
 | `/build` | Multi-agent build pipeline (planner → coder → reviewer) |
 | `/dispatch` | Parallel task execution |
 | `/security-audit` | Security scan with prioritized findings |
-| `/beta-test` | Personality-driven QA via multiple agents |
-| `/site-audit` | Accessibility + SEO + GEO audit with letter grade |
 | `/handoff` | Generate a handoff doc from current session state |
 | `/fresh` | Clear context, start clean without losing work |
 | `/init` | Initialize a new project with standard structure |
@@ -72,6 +70,15 @@ That's it. Commands are available immediately in Claude Code as `/command-name`.
 # Parallel refactor
 /dispatch refactor all API routes to use the new error handler
 ```
+
+## Related Plugins
+
+These tools were split out into their own standalone plugins:
+
+| Plugin | What it does |
+|--------|-------------|
+| [claude-site-audit](https://github.com/rjspence3/claude-site-audit) | Accessibility + SEO + GEO audit with letter grade and PDF report |
+| [claude-beta-tester](https://github.com/rjspence3/claude-beta-tester) | Personality-driven QA via AI agents (speedrunners, chaos gremlins, executives) |
 
 ## What I've learned
 
