@@ -2,6 +2,14 @@
 
 > My personal Claude Code commands and agents after 6 months of daily use. Steal freely.
 
+## Plugin Installation (Claude Plugin Directory)
+
+Once listed in the Claude plugin directory:
+```bash
+claude plugin install claude-code-toolkit@claude-community
+```
+Commands will be available as `/claude-code-toolkit:build`, `/claude-code-toolkit:plan`, etc.
+
 ## What's in here
 
 12 slash commands and 3 agent definitions I actually use. Not a framework — just the stuff that survived.
