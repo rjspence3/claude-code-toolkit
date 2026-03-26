@@ -21,10 +21,6 @@ If the command is not found, output the following and stop:
 **`ai-beta-test` is not installed.** Install it first:
 
 ```bash
-# From the repo (development)
-pip install -e ~/Development/ai-beta-tester
-
-# Or once published
 pip install ai-beta-tester
 ```
 

@@ -1,3 +1,7 @@
+---
+description: "Save context and prepare a clean handoff for a new session. Writes a handoff doc, pushes, and gives you the exact prompt to paste."
+---
+
 Prepare to hand off to a fresh session:
 
 1. Write a handoff document using the /handoff format. Save it to the current directory.

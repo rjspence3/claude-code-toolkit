@@ -1,3 +1,7 @@
+---
+description: "Write a structured handoff document capturing session state so the next session can continue without re-discovery. Usage: /handoff"
+---
+
 Write a handoff document for the next session. Save to `HANDOFF-{YYYY-MM-DD-HHMM}.md` in the current working directory.
 
 Include:
