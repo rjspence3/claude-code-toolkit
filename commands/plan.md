@@ -24,6 +24,6 @@ Based on your exploration, output:
 5. **Complexity** — simple / moderate / complex, with brief reason
 
 ## Step 3: Stop
-End with exactly: `Plan complete. Reply /go to execute, or ask questions first.`
+End with exactly: `Plan complete. Reply /build to execute, or ask questions first.`
 
 Do not begin execution. Do not make changes. Wait for confirmation.
